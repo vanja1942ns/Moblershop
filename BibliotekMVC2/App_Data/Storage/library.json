@@ -1,0 +1,80 @@
+[
+  {
+    "$type": "BibliotekMVC2.Models.Book, BibliotekMVC2",
+    "Id": 1,
+    "Title": "Soffa ",
+    "Type": "Vardagsrum",
+    "Count": 19,
+    "InitialCount": 20,
+    "LendCount": 1,
+    "Points": 48,
+    "Pris": 2000,
+    "tempPointsInitialCount": 30,
+    "tempPointsLendCount": 18
+  },
+  {
+    "$type": "BibliotekMVC2.Models.Book, BibliotekMVC2",
+    "Id": 2,
+    "Title": "Fåtölj ",
+    "Type": "Vardagsrum",
+    "Count": 14,
+    "InitialCount": 15,
+    "LendCount": 1,
+    "Points": 40,
+    "Pris": 800,
+    "tempPointsInitialCount": 25,
+    "tempPointsLendCount": 15
+  },
+  {
+    "$type": "BibliotekMVC2.Models.Book, BibliotekMVC2",
+    "Id": 3,
+    "Title": "Säng ",
+    "Type": "Sovrum",
+    "Count": 11,
+    "InitialCount": 12,
+    "LendCount": 1,
+    "Points": 32,
+    "Pris": 5000,
+    "tempPointsInitialCount": 20,
+    "tempPointsLendCount": 12
+  },
+  {
+    "$type": "BibliotekMVC2.Models.Book, BibliotekMVC2",
+    "Id": 4,
+    "Title": "Hylla ",
+    "Type": "Sovrum",
+    "Count": 9,
+    "InitialCount": 10,
+    "LendCount": 1,
+    "Points": 24,
+    "Pris": 800,
+    "tempPointsInitialCount": 15,
+    "tempPointsLendCount": 9
+  },
+  {
+    "$type": "BibliotekMVC2.Models.Book, BibliotekMVC2",
+    "Id": 5,
+    "Title": "Matta ",
+    "Type": "Köket",
+    "Count": 8,
+    "InitialCount": 8,
+    "LendCount": 0,
+    "Points": 16,
+    "Pris": 2500,
+    "tempPointsInitialCount": 10,
+    "tempPointsLendCount": 6
+  },
+  {
+    "$type": "BibliotekMVC2.Models.Book, BibliotekMVC2",
+    "Id": 6,
+    "Title": "Klocka ",
+    "Type": "Köket",
+    "Count": 5,
+    "InitialCount": 5,
+    "LendCount": 0,
+    "Points": 8,
+    "Pris": 2200,
+    "tempPointsInitialCount": 5,
+    "tempPointsLendCount": 3
+  }
+]

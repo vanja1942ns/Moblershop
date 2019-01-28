@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+ 
+<body class="background3">
+     
+    <h1>Deluxe Möbler</h1>
+    <h2>Login</h2>
+
+    <div class="login">
+        <form method="post">
+            Email: <input type="text" name="email" />
+            Password: <input type="text" name="password" />
+            <input type="submit" value="Login" />
+        </form><br />
+         <a href="~/Home/Index"><input type="button" value="Höppa över till Webbshopen"></a>
+        
+
+    </div>
+    
+    <style>
+        h1{font-size:30px;text-align:center;}
+        .login {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+       
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: black;
+            font-family: 'Noto Serif JP', sans-serif;
+            text-align: center;
+            
+        }
+    .background3 { background: url("../../Content/Photo2.jpg"); 
+                  background-repeat: no-repeat; background-size: cover; }
+    </style>
+    <div class="footer">
+        <div class="innerbox">&copy; 2018 Copyright</div>
+    </div>
+</body>
+
+
+
+
+

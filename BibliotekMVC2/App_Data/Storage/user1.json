@@ -1,0 +1,8 @@
+{
+  "$type": "BibliotekMVC2.Models.UserData, BibliotekMVC2",
+  "Id": 1,
+  "Name": "Eric Ericsson",
+  "Email": "micke@primat.se",
+  "Password": "hejsan",
+  "ShopedList": []
+}

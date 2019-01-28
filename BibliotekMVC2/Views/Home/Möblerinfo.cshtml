@@ -1,0 +1,136 @@
+﻿@{
+    ViewBag.Title = "Möblerinfo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Möblerinfo</h2>
+
+<div class="header">
+    <nav>
+        <ul>
+            <li><a href="~/Login/Index">Start</a></li>
+            <li><a href="~/Home/Index">Webshop</a></li>
+            <li><a href="~/Home/Möblerinfo">Möbler</a></li>
+            <li><a href="~/Home/Korgen">Korgen</a></li>
+        </ul>
+    </nav>
+</div>
+
+<style>
+    body {
+        background-color: beige;
+    }
+
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-family: 'Noto Serif JP', sans-serif;
+    }
+
+        ul li {
+            display: inline;
+            padding: 10px;
+        }
+
+        ul a {
+            display: inline block;
+            padding: 10px;
+        }
+
+    li a {
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        text-align: center;
+    }
+
+    li {
+        display: inline-block;
+        padding: 1%;
+    }
+
+        li a:hover {
+            background-color: beige
+        }
+
+    header1 {
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Lobster', cursive;
+        height: 10vh
+    }
+
+    a {
+        background-color: green;
+        color: black;
+        padding: 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .text1 {
+        font-size: 45px;
+        position: absolute;
+        bottom: 50px;
+        right: 20px;
+        padding-right: 220px;
+    }
+
+    .text2 {
+        font-size: 45px;
+        position: absolute;
+        bottom: 50px;
+        right: 20px;
+        padding-right: 220px;
+    }
+
+    .sofa {
+        position: relative;
+    }
+
+    .soffa {
+        position: relative;
+    }
+
+    .footer {
+       
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: black;
+        font-family: 'Noto Serif JP', sans-serif;
+        text-align: center;
+    }
+</style><br><br>
+<div class="sofa">
+    <img src="~/Content/Photo9.jpg" />
+    <div class="text1">
+        Pris:800kr<br>
+        Snygg design Fåtölj<br>
+        Material:Skinn<br>
+        Höjd:85cm<br>
+        Bredd:50cm<br>
+    </div>
+</div><br><br>
+<div class="soffa">
+    <img src="~/Content/Photo5.jpg" />
+
+
+    <div class="text2">
+        Pris:2000kr<br>
+        Snygg design Soffa<br>
+        Material:Skinn<br>
+        Höjd:85cm<br>
+        Bredd:250cm<br>
+    </div>
+</div>
+<div class="footer">
+    <div class="innerbox">&copy; 2018 Copyright</div>
+</div>
